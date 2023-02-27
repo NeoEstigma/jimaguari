@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIEGO ISORNA</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Preferencias</legend>
+        <div>
+            <label for="pref1">
+                <select multiple="multiple">
+                <option value="1">100 MBPS</option>
+                <option value="2">1000 MBPS</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <p><label for="pref2"> DNI<input id="pref2" name="DNI" type="text" value="" placeholder="Escribe aquí"></label></p>
+                <p><label for="pref2"> NOMBRE<input id="pref2" name="NOMBRE" type="text" value="" placeholder="Escribe aquí"></label></p>
+                <p><label for="pref2"> APELLIDOS<input id="pref2" name="APELLIDOS" type="text" value="" placeholder="Escribe aquí"></label></p>
+            </label>
+        </div>
+        <div>
+            <label for="pref3">
+                EMAIL<input id="pref3" name="EMAIL" type="email" value="" placeholder="Escribe aquí">
+            </label>
+        </div>
+        <div>
+            <label for="pref4">
+                <input id="pref4" name="color" type="color" value="">
+            </label>
+        </div>
+        
+            <textarea cols="35" rows="10" placeholder="Por favor, escriba aquí"></textarea>
+            
+            <div>
+                <P><label for="AMD">
+                    <input id="AMD" name="AMD" type="checkbox" value="AMD">AMD    
+                 </label></P>
+                 <P><label for="INTEL-I7">
+                    <input id="INTEL-I7" name="INTEL-I7" type="checkbox" value="INTEL I7">INTEL I7   
+                 </label></P>
+                 <P><label for="INTEL-I5">
+                    <input id="INTEL-I5" name="INTEL-I5" type="checkbox" value="INTEL I5">INTEL-I5   
+                 </label></P>
+            </div>
+        
+        <div>
+            <label for="date">
+                <input id="date" name="date" type="date">
+            </label>
+        </div>
+        <div>
+            <p><label for="2g">
+                <input id="2g" name="2g" type="radio">2G
+            </label></p>
+            <p><label for="3g">
+                <input id="3g" name="3g" type="radio">3G
+            </label></p>
+            <p><label for="4g">
+                <input id="4g" name="4g" type="radio">4G
+            </label></p>
+        </div>
+    </fieldset>
+    <div>
+            <input type="submit">
+        </div>
+</body>
+</html>
